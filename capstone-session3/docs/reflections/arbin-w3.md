@@ -1,0 +1,3 @@
+# Week 3 Reflection
+
+During this task I created a mock dataset containing both valid and invalid user inputs such as empty names, incorrect emails and unrealistic ages. These cases helped identify how incorrect data can cause issues in an application. I implemented server-side validation to ensure the API rejects invalid requests with HTTP 400 responses and structured error messages. Negative tests using Jest and Supertest were created to automatically test these invalid cases using dataset rows. This improves reliability and reduces the risk of bad data entering the system. Next, more validation rules and broader test coverage could be added before moving toward later sprint gates.

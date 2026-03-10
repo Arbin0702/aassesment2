@@ -1,0 +1,19 @@
+{
+  "name": "capstone-session3",
+  "version": "1.0.0",
+  "description": "Simple Capstone B Session 3 project with mock data, validation, negative tests, and CI.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
+}
